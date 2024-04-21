@@ -1,5 +1,4 @@
-const apiKey = "5c25f8b7e489e8439fa050e843e4eee4"; // Replace YOUR_API_KEY with your actual API key
-
+const apiKey = "5c25f8b7e489e8439fa050e843e4eee4"; // API Key
 document.addEventListener("DOMContentLoaded", function () {
   $("#city-selector").select2({
     placeholder: "Select a city",
