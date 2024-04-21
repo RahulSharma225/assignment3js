@@ -1,4 +1,5 @@
-const apiKey = "5c25f8b7e489e8439fa050e843e4eee4"; // API Key
+const apiKey = "5c25f8b7e489e8439fa050e843e4eee4"; // API key
+
 document.addEventListener("DOMContentLoaded", function () {
   $("#city-selector").select2({
     placeholder: "Select a city",
@@ -7,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
       { id: "London", text: "London" },
       { id: "New York", text: "New York" },
       { id: "Tokyo", text: "Tokyo" },
-      // Add more cities or load them via an API
     ],
   });
 });
