@@ -41,5 +41,5 @@ function getWeather() {
     });
 }
 
-// Optional: Auto-refresh weather every 5 minutes
+// Auto-refresh weather every 5 minutes
 setInterval(getWeather, 5 * 60 * 1000); // 5 minutes in milliseconds
